@@ -11,7 +11,6 @@ import (
 
 // We're not using a Database in Case of This, So we'll be going through making a Struct
 // that will be encoded in json while making API Requests
-
 type Movie struct {
 	ID       string    `json:"id"`
 	ISBN     string    `json:"isbn"`
